@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.3.23)  26 MAR 2025 07:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.3.23)  26 MAR 2025 08:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -759,98 +759,96 @@ Package pdftex.def Info: images/Image.jpeg  used on input line 9.
 
 
 [2{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./images/Image.jpeg>]
-
-[3]
-<images/thumbnail_image005.png, id=64, 1156.32pt x 344.487pt>
+<images/thumbnail_image005.png, id=60, 1156.32pt x 344.487pt>
 File: images/thumbnail_image005.png Graphic file (type png)
 <use images/thumbnail_image005.png>
-Package pdftex.def Info: images/thumbnail_image005.png  used on input line 40.
+Package pdftex.def Info: images/thumbnail_image005.png  used on input line 41.
 (pdftex.def)             Requested size: 498.66258pt x 148.55754pt.
-<images/Screenshot From 2025-03-26 04-25-26.png, id=66, 1732.4725pt x 757.83125pt>
+<images/Screenshot From 2025-03-26 04-25-26.png, id=62, 1732.4725pt x 757.83125pt>
 File: images/Screenshot From 2025-03-26 04-25-26.png Graphic file (type png)
 <use images/Screenshot From 2025-03-26 04-25-26.png>
-Package pdftex.def Info: images/Screenshot From 2025-03-26 04-25-26.png  used on input line 51.
+Package pdftex.def Info: images/Screenshot From 2025-03-26 04-25-26.png  used on input line 52.
 (pdftex.def)             Requested size: 498.66258pt x 218.12341pt.
 
 
-[4 <./images/thumbnail_image005.png>]
-<images/Screenshot From 2025-03-26 04-26-15.png, id=73, 1520.68124pt x 1114.1625pt>
+[3 <./images/thumbnail_image005.png>]
+<images/Screenshot From 2025-03-26 04-26-15.png, id=69, 1520.68124pt x 1114.1625pt>
 File: images/Screenshot From 2025-03-26 04-26-15.png Graphic file (type png)
 <use images/Screenshot From 2025-03-26 04-26-15.png>
 Package pdftex.def Info: images/Screenshot From 2025-03-26 04-26-15.png  used on input line 59.
-(pdftex.def)             Requested size: 398.93158pt x 292.27654pt.
+(pdftex.def)             Requested size: 448.79327pt x 328.8111pt.
 
 
-[5 <./images/Screenshot From 2025-03-26 04-25-26.png> <./images/Screenshot From 2025-03-26 04-26-15.png>]
-<images/Screenshot From 2025-03-26 07-08-18.png, id=82, 1930.21124pt x 770.88pt>
+[4 <./images/Screenshot From 2025-03-26 04-25-26.png> <./images/Screenshot From 2025-03-26 04-26-15.png>]
+<images/Screenshot From 2025-03-26 07-08-18.png, id=78, 1930.21124pt x 770.88pt>
 File: images/Screenshot From 2025-03-26 07-08-18.png Graphic file (type png)
 <use images/Screenshot From 2025-03-26 07-08-18.png>
-Package pdftex.def Info: images/Screenshot From 2025-03-26 07-08-18.png  used on input line 71.
+Package pdftex.def Info: images/Screenshot From 2025-03-26 07-08-18.png  used on input line 70.
 (pdftex.def)             Requested size: 498.66258pt x 199.1537pt.
-<images/Screenshot From 2025-03-26 03-23-59.png, id=83, 1148.29pt x 811.03pt>
+<images/Screenshot From 2025-03-26 03-23-59.png, id=79, 1148.29pt x 811.03pt>
 File: images/Screenshot From 2025-03-26 03-23-59.png Graphic file (type png)
 <use images/Screenshot From 2025-03-26 03-23-59.png>
-Package pdftex.def Info: images/Screenshot From 2025-03-26 03-23-59.png  used on input line 78.
+Package pdftex.def Info: images/Screenshot From 2025-03-26 03-23-59.png  used on input line 77.
 (pdftex.def)             Requested size: 498.66258pt x 352.20119pt.
 
 
-[6 <./images/Screenshot From 2025-03-26 07-08-18.png> <./images/Screenshot From 2025-03-26 03-23-59.png>]
-<images/Screenshot From 2025-03-26 03-35-23.png, id=93, 1148.29pt x 811.03pt>
+[5 <./images/Screenshot From 2025-03-26 07-08-18.png> <./images/Screenshot From 2025-03-26 03-23-59.png>]
+<images/Screenshot From 2025-03-26 03-35-23.png, id=88, 1148.29pt x 811.03pt>
 File: images/Screenshot From 2025-03-26 03-35-23.png Graphic file (type png)
 <use images/Screenshot From 2025-03-26 03-35-23.png>
-Package pdftex.def Info: images/Screenshot From 2025-03-26 03-35-23.png  used on input line 85.
+Package pdftex.def Info: images/Screenshot From 2025-03-26 03-35-23.png  used on input line 84.
 (pdftex.def)             Requested size: 498.66258pt x 352.20119pt.
-<images/Screenshot From 2025-03-26 07-11-42.png, id=94, 1915.155pt x 965.6075pt>
+<images/Screenshot From 2025-03-26 07-11-42.png, id=89, 1915.155pt x 965.6075pt>
 File: images/Screenshot From 2025-03-26 07-11-42.png Graphic file (type png)
 <use images/Screenshot From 2025-03-26 07-11-42.png>
-Package pdftex.def Info: images/Screenshot From 2025-03-26 07-11-42.png  used on input line 92.
+Package pdftex.def Info: images/Screenshot From 2025-03-26 07-11-42.png  used on input line 91.
 (pdftex.def)             Requested size: 498.66258pt x 251.42038pt.
 
 
-[7 <./images/Screenshot From 2025-03-26 03-35-23.png> <./images/Screenshot From 2025-03-26 07-11-42.png>]
-<images/Screenshot From 2025-03-26 03-44-11.png, id=103, 1222.5675pt x 585.18625pt>
+[6 <./images/Screenshot From 2025-03-26 03-35-23.png> <./images/Screenshot From 2025-03-26 07-11-42.png>]
+<images/Screenshot From 2025-03-26 03-44-11.png, id=99, 1222.5675pt x 585.18625pt>
 File: images/Screenshot From 2025-03-26 03-44-11.png Graphic file (type png)
 <use images/Screenshot From 2025-03-26 03-44-11.png>
-Package pdftex.def Info: images/Screenshot From 2025-03-26 03-44-11.png  used on input line 99.
+Package pdftex.def Info: images/Screenshot From 2025-03-26 03-44-11.png  used on input line 98.
 (pdftex.def)             Requested size: 498.66258pt x 238.68675pt.
-<images/Screenshot From 2025-03-26 07-13-48.png, id=104, 1915.155pt x 965.6075pt>
+<images/Screenshot From 2025-03-26 07-13-48.png, id=100, 1915.155pt x 965.6075pt>
 File: images/Screenshot From 2025-03-26 07-13-48.png Graphic file (type png)
 <use images/Screenshot From 2025-03-26 07-13-48.png>
-Package pdftex.def Info: images/Screenshot From 2025-03-26 07-13-48.png  used on input line 106.
+Package pdftex.def Info: images/Screenshot From 2025-03-26 07-13-48.png  used on input line 105.
 (pdftex.def)             Requested size: 498.66258pt x 251.42038pt.
 )
 
-[8 <./images/Screenshot From 2025-03-26 03-44-11.png> <./images/Screenshot From 2025-03-26 07-13-48.png>] (./sections/validation.tex
-<images/Figure_1.png, id=113, 1802.4138pt x 980.7039pt>
-File: images/Figure_1.png Graphic file (type png)
-<use images/Figure_1.png>
-Package pdftex.def Info: images/Figure_1.png  used on input line 21.
-(pdftex.def)             Requested size: 398.93158pt x 412.16219pt.
+[7 <./images/Screenshot From 2025-03-26 03-44-11.png> <./images/Screenshot From 2025-03-26 07-13-48.png>] (./sections/validation.tex
+<images/Screenshot From 2025-03-26 07-59-40.png, id=109, 1200.485pt x 1325.95375pt>
+File: images/Screenshot From 2025-03-26 07-59-40.png Graphic file (type png)
+<use images/Screenshot From 2025-03-26 07-59-40.png>
+Package pdftex.def Info: images/Screenshot From 2025-03-26 07-59-40.png  used on input line 21.
+(pdftex.def)             Requested size: 373.99693pt x 413.08488pt.
 
 
-[9 <./images/Figure_1.png>]) (./sections/futureWork.tex)
+[8 <./images/Screenshot From 2025-03-26 07-59-40.png>]) (./sections/futureWork.tex)
 
-[10] (./main.aux)
+[9] (./main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 798074F33558C8B120146ADEF047D86C;1443.
+(rerunfilecheck)             Checksum: 741485CF22CC62868C74B80B1C17B6D2;1420.
  ) 
 Here is how much of TeX's memory you used:
- 29283 strings out of 473584
- 583179 string characters out of 5730879
+ 29281 strings out of 473584
+ 583351 string characters out of 5730879
  1934905 words of memory out of 5000000
- 51663 multiletter control sequences out of 15000+600000
+ 51662 multiletter control sequences out of 15000+600000
  576561 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,101p,550b,1018s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,10n,101p,550b,1014s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (11 pages, 6856675 bytes).
+Output written on main.pdf (10 pages, 6818194 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 122 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -7,7 +7,7 @@ The validation study begins with a detailed characterization of the brushed DC m
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{images/Image.jpeg}
-	\caption{Dyno testbench setup}
+	\caption{Mesuring the rotor winding parameters}
 \end{figure}
 
 	\item \textbf{Torque constant (Kt)}: Tested with values 100 Nm/A and 50 Nm/A to observe torque response.
@@ -16,7 +16,8 @@ The validation study begins with a detailed characterization of the brushed DC m
 
 \end{itemize}
 
-\newpage\noindent
+% \newpage
+\noindent
 \textbf{Experimental Setup:} The motor was mounted on a custom-designed dyno testbench, which includes:
 \begin{itemize}
 	\item A flywheel (introduces inertia)
@@ -27,7 +28,7 @@ The validation study begins with a detailed characterization of the brushed DC m
 % \noindent
 Tests were conducted with no load, constant load, and variable load conditions. Load types included constant torque values and sinusoidal torque waveforms. Data acquisition was performed at high-frequency sampling rates to ensure accurate capture of transient and steady-state motor behavior.
 
-\section{\textbf{The Chrono Brushed Electric Motor \& Dyno Testbed Models}}
+\section{\textbf{Chrono Brushed Electric Motor \& Dyno Testbed Models}}
 \begin{itemize}
     \needspace{10\baselineskip}
 	\item \textbf{Brushed motor:} model captures electrical dynamics and electromechanical coupling using parameters extracted from measurements.
@@ -45,19 +46,17 @@ SolidWorks models were created for both the motor assembly and the dyno testbenc
 
 \begin{itemize}
     \needspace{10\baselineskip}
-    \item \textbf{The Dyno model:}
+    \item \textbf{Dyno model:}
     \begin{figure}[H]
         \centering
         \includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 04-25-26.png}
-        \caption{NGspice circuit model of the DC motor}
     \end{figure}
 
     \needspace{5\baselineskip}
-    \item \textbf{The Rotor and Rotor\_winding Model:}
+    \item \textbf{Rotor and Rotor\_winding Model:}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth]{images/Screenshot From 2025-03-26 04-26-15.png}
-        \caption{NGspice circuit model of the DC motor}
+        \includegraphics[width=0.90\textwidth]{images/Screenshot From 2025-03-26 04-26-15.png}
     \end{figure}
 \end{itemize}
 
@@ -72,7 +71,7 @@ SolidWorks models were created for both the motor assembly and the dyno testbenc
         \end{figure}
 
     \needspace{10\baselineskip}
-	\item \textbf{Constant load torque application} 
+	\item \textbf{Constant load torque application (Duty Coycle = 100\%)} 
         \begin{figure}[H]
         	\centering
         	\includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 03-23-59.png}

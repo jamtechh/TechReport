@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1742991346.35026 "/home/jamiul/Downloads/TR2/main.tex" "main.pdf" "main" 1742991347.80685 0
+["pdflatex"] 1742994646.72245 "/home/jamiul/Downloads/TR2/main.tex" "main.pdf" "main" 1742994648.14718 0
   "/etc/texmf/web2c/texmf.cnf" 1742780588.6166 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/jamiul/Downloads/TR2/main.tex" 1742990713.38597 2279 de6d98589ad296599013c33dd1ce0dfd ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -216,7 +216,6 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1720733508 41397 9faae6d82bd50f2dbfc10ae285bd31e2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1742780615 5483312 83571ac1484d9f215cb7ea03c4d53797 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1742780637 8243092 eaee0691fbdffc2807246c0e2921b5db ""
-  "images/Figure_1.png" 1742979946.68678 130974 9e3425780db3bb97599014c567e055ba ""
   "images/Image.jpeg" 1742996802 2180034 f3841266db386b90a990fbdf84729c8e ""
   "images/Screenshot From 2025-03-26 03-23-59.png" 1742996804 92532 a1a137026930ebe3474210013362cc7f ""
   "images/Screenshot From 2025-03-26 03-35-23.png" 1742996804 127964 70656186f8fe5b65e993a534006602f4 ""
@@ -226,16 +225,17 @@
   "images/Screenshot From 2025-03-26 07-08-18.png" 1742990898.02938 178267 bc0f6f3e008992cd236c9b889bc33ba8 ""
   "images/Screenshot From 2025-03-26 07-11-42.png" 1742991108.64356 155625 9f30f671e4d2819503653f564c6f03e8 ""
   "images/Screenshot From 2025-03-26 07-13-48.png" 1742991234.34548 382503 a5578e55c6f3f79808eb4a5a2ec5cba5 ""
+  "images/Screenshot From 2025-03-26 07-59-40.png" 1742993980.7813 91629 f0f4845e3e1987561f234ceff85ae8d4 ""
   "images/thumbnail_image005.png" 1742996804 361126 d1b07eb964de3b93b051f63a48225868 ""
   "macros.tex" 1742996802 1253 785878edbe3a79d48a2c8a575a11782e ""
-  "main.aux" 1742991347.75051 1891 7c348f545aa207782f1aa69476066743 "pdflatex"
-  "main.out" 1742991347.75051 1443 798074f33558c8b120146adef047d86c "pdflatex"
+  "main.aux" 1742994648.08648 1590 99087950e174907f7f385c2dcabf3b3a "pdflatex"
+  "main.out" 1742994648.08648 1420 741485cf22cc62868c74b80b1c17b6d2 "pdflatex"
   "main.tex" 1742990713.38597 2279 de6d98589ad296599013c33dd1ce0dfd ""
-  "main.toc" 1742991347.75051 588 69251e3effaffcec052d2aee91ff3c78 "pdflatex"
-  "sections/Experiment_Setup_description.tex" 1742991346.20152 5080 c844ddbc2db2741a3eff279a4ca1c41e ""
+  "main.toc" 1742994648.08648 583 54be0dec577f02739564c0b473ff75d0 "pdflatex"
+  "sections/Experiment_Setup_description.tex" 1742993094.1937 4999 f9d746fbb803f50b7d1e5f6926d1bf95 ""
   "sections/futureWork.tex" 1742996802 23 a0f1e2fa4c49565f7213665670ede868 ""
   "sections/intro.tex" 1742996802 467 f42b71e4d8fe521f10c45144f11e0cbc ""
-  "sections/validation.tex" 1742990624.04274 1870 a2ef427d09aa3bec50b5c229205fbef8 ""
+  "sections/validation.tex" 1742994645.05851 1924 1426aa4e33307d17cafe0f365a2964ef ""
   (generated)
   "main.aux"
   "main.log"

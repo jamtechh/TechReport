@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Description of the brushed electric motor \& dyno testbed}{2}{section.2}%
+\contentsline {section}{\numberline {3}\textbf {The Chrono Brushed Electric Motor \& Dyno Testbed Models}}{4}{section.3}%
+\contentsline {section}{\numberline {4}\textbf {\textbf {Plots to explain the Simulation parameters - }}}{6}{section.4}%
+\contentsline {section}{\numberline {5}Validation study results}{9}{section.5}%
+\contentsline {section}{\numberline {6}Conclusions and future Work}{9}{section.6}%

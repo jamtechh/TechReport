@@ -1,0 +1,89 @@
+\documentclass[11pt]{article}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{bbm}
+\usepackage{cite}
+\usepackage{color}
+\usepackage[inline]{enumitem}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{listings}
+\usepackage{placeins}
+\usepackage{siunitx}
+%\usepackage{subfig}
+\usepackage{subcaption}
+\usepackage{todonotes}
+\usepackage{wrapfig}
+\usepackage{algpseudocode}
+\usepackage{needspace}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+
+\begin{document}
+
+\input{macros}
+	
+\begin{titlepage}
+	\begin{center}
+		Simulation-Based Engineering Lab \\
+		University of Wisconsin-Madison \\
+		\LARGE Technical Report TR--2025--04\\
+		\vfill 
+		\LARGE A validation study for the Chrono::PowerElectronics model of a brushed electric motor\\
+		\vspace{0.5in}
+		\Large Jamiul Haque$^1$, Patrick Chen$^1$, Bret Witt$^1$, \\
+		Federico Reato$^2$, Matteo Santelia$^3$, Dan Negrut$^1$\\
+		\vspace{0.2in}
+		
+		{
+			\footnotesize
+			\begin{minipage}{\textwidth} % Use a minipage to control alignment
+				\hspace{-2cm} % Adjust this value as needed
+				\begin{tabular}{ccccc}
+					$^1$ Dept. of Mechanical Engineering & \hspace{0.0cm}   & $^2$ R\&D Department & \hspace{0.0cm}   & $^3$ Dept. of Mechanical Engineering       \\
+					University of Wisconsin-Madison & \hspace{0.0cm}&  Iseo Serrature Spa - Microhard SRL& \hspace{0.0cm} & Politecnico di Milano \\
+					1513 University Avenue, Madison, WI, USA & \hspace{0.0cm}& Via S. Girolamo, 13, Pisogne, 25055, Italy& \hspace{0.0cm} & Via La Masa, 1 I-20156 Milan, Italy \\
+				\end{tabular}
+			\end{minipage}
+		}
+		
+		\vfill		
+		\today		
+	\end{center}
+\end{titlepage}
+
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+\label{sec:intro}
+\input{sections/intro.tex}
+
+\label{sec:physical-contraption}
+\input{sections/Experiment_Setup_description.tex}
+
+\section{Validation study results}
+\label{sec:numerical-results}
+\input{sections/validation.tex}
+
+\section{Conclusions and future Work}
+\label{sec:futureWork}
+\input{sections/futureWork.tex}
+
+
+
+
+% \section{Conclusion}
+% \label{sec:conclusion}
+
+\end{document}          

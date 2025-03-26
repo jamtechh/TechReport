@@ -1,0 +1,107 @@
+\section{Description of the brushed electric motor \& dyno testbed}
+
+The validation study begins with a detailed characterization of the brushed DC motor used in both experimental and simulation environments. Understanding the motor's electrical and mechanical properties is critical to building an accurate digital twin in Chrono. The following parameters were measured or estimated through experimental procedures:
+
+\begin{itemize}
+	\item \textbf{Inductance (L) \& Resistance (R)}: These fundamental electrical parameters were measured directly and are essential to capturing the motor’s dynamic response to PWM input. They influence the current ripple and the time constant of the motor's electrical system.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/Image.jpeg}
+	\caption{Dyno testbench setup}
+\end{figure}
+
+	\item \textbf{Torque constant (Kt)}: Tested with values 100 Nm/A and 50 Nm/A to observe torque response.
+	\item \textbf{Speed constant (Kv)}: Tested at 2000 rpm/V and 1000 rpm/V to assess speed-voltage behavior.
+	\item \textbf{Mass and Inertia}: The mass of the Rotor, Flywheel, and Gears were measured to accurately capture the mechanical dynamics of the motor system. And the geometric inertia was captured directly from SolidWorks. These values are crucial for matching acceleration and deceleration behavior between simulation and experiment. This point applies to all the rotating bodies in the system.
+
+\end{itemize}
+
+\newpage\noindent
+\textbf{Experimental Setup:} The motor was mounted on a custom-designed dyno testbench, which includes:
+\begin{itemize}
+	\item A flywheel (introduces inertia)
+	\item A gear train (transmits motion)
+	\item A secondary motor acting as a controllable load (dyno motor)
+\end{itemize}
+
+% \noindent
+Tests were conducted with no load, constant load, and variable load conditions. Load types included constant torque values and sinusoidal torque waveforms. Data acquisition was performed at high-frequency sampling rates to ensure accurate capture of transient and steady-state motor behavior.
+
+\section{\textbf{The Chrono Brushed Electric Motor \& Dyno Testbed Models}}
+\begin{itemize}
+    \needspace{10\baselineskip}
+	\item \textbf{Brushed motor:} model captures electrical dynamics and electromechanical coupling using parameters extracted from measurements.
+    \needspace{10\baselineskip}
+	\item \textbf{Dyno Testbench:} modeled to simulate different load types including constant and time-varying torque.
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\textwidth]{images/thumbnail_image005.png}
+	\caption{NGspice circuit model of the DC motor}
+\end{figure}
+
+SolidWorks models were created for both the motor assembly and the dyno testbench. These models provide detailed CAD-based data, including:
+
+\begin{itemize}
+    \needspace{10\baselineskip}
+    \item \textbf{The Dyno model:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 04-25-26.png}
+        \caption{NGspice circuit model of the DC motor}
+    \end{figure}
+
+    \needspace{5\baselineskip}
+    \item \textbf{The Rotor and Rotor\_winding Model:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{images/Screenshot From 2025-03-26 04-26-15.png}
+        \caption{NGspice circuit model of the DC motor}
+    \end{figure}
+
+Mass of the Rotor: 8.5 grams \\
+Rotor Geometric Inertia: \\
+Ixx = 16081.3   \\
+Iyy = 16081.30  \\
+Izz = 520.48    \\
+\end{itemize}
+
+\section{\textbf{\textbf{Plots to explain the Simulation parameters - }}}
+\begin{itemize}
+    \needspace{10\baselineskip}
+	\item \textbf{Different rpm levels in response to the PWM input} 
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 03-20-22.png}
+        \end{figure}
+
+    \needspace{10\baselineskip}
+	\item \textbf{Constant load torque application} 
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 03-23-59.png}
+        \end{figure}
+
+    \needspace{10\baselineskip}
+	\item \textbf{Sinusoidal load torque application} 
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 03-35-23.png}
+        \end{figure}
+
+    \needspace{10\baselineskip}
+	\item \textbf{The contribution of the Kt (Nm/A)} 
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 03-36-38.png}
+        \end{figure}
+
+    \needspace{10\baselineskip}
+	\item \textbf{The effect of the Kv (rpm/V)} 
+        \begin{figure}[H]
+        	\centering
+        	\includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 03-44-11.png}
+        \end{figure}
+\end{itemize}
+

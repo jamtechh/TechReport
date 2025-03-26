@@ -59,21 +59,16 @@ SolidWorks models were created for both the motor assembly and the dyno testbenc
         \includegraphics[width=0.8\textwidth]{images/Screenshot From 2025-03-26 04-26-15.png}
         \caption{NGspice circuit model of the DC motor}
     \end{figure}
-
-Mass of the Rotor: 8.5 grams \\
-Rotor Geometric Inertia: \\
-Ixx = 16081.3   \\
-Iyy = 16081.30  \\
-Izz = 520.48    \\
 \end{itemize}
 
+\needspace{5\baselineskip}
 \section{\textbf{\textbf{Plots to explain the Simulation parameters - }}}
 \begin{itemize}
     \needspace{10\baselineskip}
 	\item \textbf{Different rpm levels in response to the PWM input} 
         \begin{figure}[H]
         	\centering
-        	\includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 03-20-22.png}
+        	\includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 07-08-18.png}
         \end{figure}
 
     \needspace{10\baselineskip}
@@ -94,7 +89,7 @@ Izz = 520.48    \\
 	\item \textbf{The contribution of the Kt (Nm/A)} 
         \begin{figure}[H]
         	\centering
-        	\includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 03-36-38.png}
+        	\includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 07-11-42.png}
         \end{figure}
 
     \needspace{10\baselineskip}
@@ -102,6 +97,13 @@ Izz = 520.48    \\
         \begin{figure}[H]
         	\centering
         	\includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 03-44-11.png}
+        \end{figure}
+
+    \needspace{10\baselineskip}
+    \item \textbf{Effect of SolverFrequency and SamplingTimestep on the PWM curve precision} 
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1.0\textwidth]{images/Screenshot From 2025-03-26 07-13-48.png}
         \end{figure}
 \end{itemize}
 

@@ -3,4 +3,4 @@
 \contentsline {section}{\numberline {3}\textbf {The Chrono Brushed Electric Motor \& Dyno Testbed Models}}{4}{section.3}%
 \contentsline {section}{\numberline {4}\textbf {\textbf {Plots to explain the Simulation parameters - }}}{6}{section.4}%
 \contentsline {section}{\numberline {5}Validation study results}{9}{section.5}%
-\contentsline {section}{\numberline {6}Conclusions and future Work}{9}{section.6}%
+\contentsline {section}{\numberline {6}Conclusions and future Work}{10}{section.6}%

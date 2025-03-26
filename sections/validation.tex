@@ -1,10 +1,28 @@
 \begin{itemize}
     \needspace{10\baselineskip}
-	\item \textbf{Simulation Methodology:} 
+	\item \textbf{Simulation Methodology (Dyno Simulation):} \\
+	Experimental data was exported into .csv file which was channeled to the chrono model. 
+	Real time from the data was synchronized with the simulation timeStep to use the PWM Duty Cycle and the Load Torque as a input.
+
+	All the crucial simulation Parameters used - 
+	\begin{align}
+	K_t &= 0.005\,\mathrm{Nm/A} \\
+	K_v &= 1900\,\mathrm{rpm/V} \\
+	\textit{Resistance} &= 0.040\,\Omega \\
+	\textit{Inductance} &= 10 \times 10^{-5}\,\mathrm{H} \\
+	\textit{PwmFrequency} &= 1\,\mathrm{kHz} \\
+	\textit{MechanicalFrequency} &= 10^5\,\mathrm{Hz} \\
+	\textit{ElectricalFrequency} &= 10^5\,\mathrm{Hz} \\
+	\textit{ElectronicSamplingFrequency} &= 0.005\,\mathrm{Nm/A}
+	\end{align}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[trim=0 0 850 0, clip, width=0.80\textwidth]{images/Figure_1.png}
+	\end{figure}
+
     \needspace{10\baselineskip}
 	\item \textbf{No load:} 
-    \needspace{10\baselineskip}
-	\item \textbf{Dyno Simulation:}
 	
 \end{itemize}
 PWM signals were used to drive the motor. Two simulation settings were tested to assess the effect of timestep and PWM frequency:\\
